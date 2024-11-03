@@ -1,8 +1,45 @@
-.cle {
-    background-color: rgba(33, 175, 246, 0.895);
+body {
+    font-family: Arial, sans-serif;
+    background-color: #18192c;
+    color: #C9D1D9;
 }
 
-#re {
-    color: red;
-    text-align: right;
+h1 {
+    color: #a90000;
+}
+
+.yt{
+    color: #8B949E;
+    text-decoration: none;
+}
+a {
+    color: #8B949E;
+    text-decoration: none;
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+h1+p {
+    background-color: #161B22;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.a:hover {
+    color: #dfd500;
+}
+
+ul li::before { 
+    content: url(Gear5_Laugh.gif);
+}
+
+a.div::after {
+    content: "😊";
+}
+
+p::first-letter {
+    color: #a90000;
+    font-size: 150%;
 }
